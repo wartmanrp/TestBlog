@@ -82,3 +82,17 @@ C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\De
 C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.pdb
 C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.Migrations.InitialMigration.resources
 C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.csproj.GenerateResource.Cache
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\csc.exe.config
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\csc.rsp
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\csi.exe
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\csi.rsp
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\System.AppContext.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\vbc.exe.config
+C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\vbc.rsp
