@@ -1,0 +1,33 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@using TestBlog.Models;
+@model PagedList<Post>
+
+
+@foreach (var post in Model)
+{
+<div class="post-preview">
+    <a href="@Url.Action("Details", new { id = post.Id })">
+        <h2 class="post-title">
+            @post.Title
+        </h2>
+        <h3 class="post-subtitle">
+            @post.Categories.ToList();
+        </h3>
+    </a>
+    if (post.Modified != null)
+    {
+    <p class="post-meta">Modified by @post.Author on @post.Modified.ToString()</p>
+    }
+    else
+    {
+    <p class="post-meta">Posted by @post.Author on @post.Created.ToString("a")</p>
+    }
+</div>
+        <hr>
+}
+<ul class="pager">
+    <li class="next">
+        <a href="#">Older Posts &rarr;</a>
+    </li>
+</ul>

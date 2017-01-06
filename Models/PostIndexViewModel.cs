@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestBlog.Models
 {
-    public class PostIndexViewModel : ViewModelBase
-    {
-        
-    }
+   public class PostIndexViewModel : ViewModelBase
+   {
+      public IEnumerable<Post> Posts { get; set; }
+      
+   }
 }

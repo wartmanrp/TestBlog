@@ -7,8 +7,8 @@ using System.Web.Mvc;
 
 namespace TestBlog.Models
 {
-    public class Post
-    {
+   public class Post
+   {
       public Post()
       {
          this.Comments = new HashSet<Comment>();
@@ -19,7 +19,9 @@ namespace TestBlog.Models
       public DateTimeOffset Created { get; set; }
       public DateTimeOffset? Modified { get; set; }
       public string Title { get; set; }
-
+      public string Subtitle { get; set; }
+      public virtual ApplicationUser Author { get; set; }
+     
       [AllowHtml]
       public string Body { get; set; }
       public string MediaUrl { get; set; }

@@ -96,3 +96,9 @@ C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\ro
 C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\System.IO.FileSystem.Primitives.dll
 C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\vbc.exe.config
 C:\Users\pwartman\Documents\Visual Studio 2015\Projects\TestBlog\TestBlog\bin\roslyn\vbc.rsp
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\bin\PagedList.dll
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\bin\PagedList.Mvc.dll
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\bin\PagedList.xml
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\bin\PagedList.Mvc.xml
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.Migrations.Update1.resources
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.Migrations.Update2.resources

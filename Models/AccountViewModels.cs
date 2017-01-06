@@ -46,7 +46,7 @@ namespace TestBlog.Models
         public string Email { get; set; }
     }
 
-    public class LoginViewModel
+    public class LoginViewModel : ViewModelBase
     {
         [Required]
         [Display(Name = "Email")]
