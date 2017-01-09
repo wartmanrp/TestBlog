@@ -34,10 +34,15 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
-                    
+
                     <!--TODO need method for latest post.-->
                     <li>@Html.ActionLink("Latest", "Latest", "Posts")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <!--only show if user is logged in-->
+                        <li>@Html.ActionLink("New Post", "CreateEditPost", "Home")</li>
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div> <!--collapse-->
@@ -107,6 +112,16 @@
     <script src="~/startbootstrap/js/contact_me.js"></script>
     @*<script src="~/startbootstrap/js/clean-blog.js"></script>*@
     <script src="~/startbootstrap/js/clean-blog.min.js"></script>
+    <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
+    <script>
+    tinymce.init({
+        selector: '#myTextArea',
+        toolbar: 'undo redo styleselect bold italic alignleft aligncenter alignright bullist numlist outdent indent code pagebreak',
+        plugins: 'code pagebreak',
+        browser_spellcheck: true,
+
+    });
+    </script>
     <!--TODO bundle scripts-->
     @*@Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")*@

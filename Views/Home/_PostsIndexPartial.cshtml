@@ -12,22 +12,31 @@
             @post.Title
         </h2>
         <h3 class="post-subtitle">
-            @post.Categories.ToList();
+            @post.Category
         </h3>
     </a>
-    if (post.Modified != null)
+    @if (post.Modified != null)
     {
-    <p class="post-meta">Modified by @post.Author on @post.Modified.ToString()</p>
+    <p class="post-meta">Modified by @post.Author.UserName on @post.Modified.ToString()</p>
     }
     else
     {
-    <p class="post-meta">Posted by @post.Author on @post.Created.ToString("a")</p>
+    <p class="post-meta">Posted by @post.Author.UserName on @post.Created.ToString("g")</p>
     }
 </div>
         <hr>
 }
-<ul class="pager">
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+   new { page }),
+   new PagedListRenderOptions() {
+       UlElementClasses = new List<string> { "pager" }})
+
+@*<ul class="pager">
     <li class="next">
         <a href="#">Older Posts &rarr;</a>
     </li>
-</ul>
+    <li>
+        Page @Model.PageNumber of @Model.PageCount
+    </li>
+</ul>*@

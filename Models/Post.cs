@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,10 +19,18 @@ namespace TestBlog.Models
       public int Id { get; set; }
       public DateTimeOffset Created { get; set; }
       public DateTimeOffset? Modified { get; set; }
+
+      [Required]
       public string Title { get; set; }
+
+      [Required]
       public string Subtitle { get; set; }
+
+      [Required]
+      public string Category { get; set; }
+
       public virtual ApplicationUser Author { get; set; }
-     
+      
       [AllowHtml]
       public string Body { get; set; }
       public string MediaUrl { get; set; }

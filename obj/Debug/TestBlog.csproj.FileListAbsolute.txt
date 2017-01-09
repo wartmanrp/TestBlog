@@ -102,3 +102,5 @@ C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\bin\Pa
 C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\bin\PagedList.Mvc.xml
 C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.Migrations.Update1.resources
 C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.Migrations.Update2.resources
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.Migrations.Update3.resources
+C:\Users\pwartman\documents\visual studio 2015\Projects\TestBlog\TestBlog\obj\Debug\TestBlog.Migrations.update4.resources
